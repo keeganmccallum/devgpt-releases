@@ -8,7 +8,7 @@ const sendGPT4Request = async ({
   temperature,
 }: any) => {
   const apiKey = process?.env?.NEXT_PUBLIC_OPENAI_API_KEY;
-  const endpoint = "https://api.openai.com/v1/chat/completions";
+  const endpoint = "https://api-devgpt.costly.ai/v1/chat/completions";
 
   let tokens;
 
